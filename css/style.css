@@ -35,18 +35,18 @@
     background-image: url(../img/ba2.jpg); 
 }
 
-.img-3{
+.img-3 {
     background-image: url(../img/ba3.jpg); 
 }
 
-.grad-img{
+.grad-img {
     position: absolute;
-    background-color: rgba(0,0,0,.5) ;
+    background-color: rgba(0, 0, 0, .5);
     width: 100%;
     height: 100%;
 }
 
-.grad-img div{
+.grad-img div {
     bottom: 10rem;
     right: 8rem;
     text-align: end;
@@ -60,3 +60,64 @@ footer {
 footer .bg-cr {
     background-color: rgba(0, 0, 0, 0.2);
 }
+
+.card.border-primary:hover,
+.card.border-primary:focus,
+.card.border-primary:active {
+    border-color: #332d97;
+}
+
+.card.border-primary:hover .card-body,
+.card.border-primary:focus .card-body,
+.card.border-primary:active .card-body {
+    background-color: #332d97;
+    color: #fff;
+}
+
+.card.border-success:hover,
+.card.border-success:focus,
+.card.border-success:active {
+    border-color: #4fb737;
+}
+
+.card.border-success:hover .card-body,
+.card.border-success:focus .card-body,
+.card.border-success:active .card-body {
+    background-color: #4fb737;
+    color: #fff;
+}
+
+.card.border-warning:hover,
+.card.border-warning:focus,
+.card.border-warning:active {
+    border-color: #e7d00f;
+}
+
+.card.border-warning:hover .card-body,
+.card.border-warning:focus .card-body,
+.card.border-warning:active .card-body {
+    background-color: #e7d00f;
+    color: #fff;
+}
+
+.btnBorrar,
+.btnResumen,
+.btnComprar {
+    transition: background-color 0.3s;
+}
+
+.btnBorrar:hover,
+.btnResumen:hover,
+.btnComprar:hover {
+    background-color: #76a129 !important;
+}
+
+.btnEnviar {
+    background-color: #96c93e;
+    transition: background-color 0.3s;
+}
+
+.btnEnviar:hover {
+    background-color: #76a129 !important;
+}
+
