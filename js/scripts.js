@@ -1,3 +1,11 @@
+/* FUNCIONES PARA LOS BOTONES TICKET Y COLABORADOR*/
+function redirigir() {
+        window.location.href = "tickets.html";
+    }
+
+
+
+
 /* CREO EL OBJETO QUE VA A CONTENER LOS VALORES QUE INGRESE POR INPUT */
 const datos = {
     cantidad: '',
